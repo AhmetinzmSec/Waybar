@@ -1,0 +1,17 @@
+ 
+ {
+    "include": "~/.config/hypr/waybar/modulesnew",
+    "layer": "top",
+    "position": "top",
+    "mod": "dock",
+    "exclusive": true,
+    "passthrough": false,
+    "gtk-layer-shell": true,
+    "height": 50,
+    "modules-left": ["custom/launch_wofi","wlr/workspaces","cpu","memory","disk", "custom/spotify"],
+    "modules-center": ["custom/lock_screen","clock","custom/power_btn"],
+    "modules-right": ["temperature","custom/power_profile","battery","backlight","pulseaudio", "pulseaudio#microphone", "network","tray","custom/weather","custom/updates", "custom/terminal"],
+   "custom/spotify": {
+    "max-length": 25
+   }
+  }
